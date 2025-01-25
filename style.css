@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header-title {
+    text-align: center;
+    border: 2px solid #6adeae;
+    background:rgba(0, 0, 0, 0.716);
+    color: white; 
+    padding: 15px; 
+    border-radius: 10px;
+    margin: 20px 0; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
+
+
+input, select {
+    padding: 5px;
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+input:hover {
+    background-color: rgb(211, 211, 211); 
+}
+
+#button {
+    background-color:#24b377; 
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0); 
+    padding: 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    width: 100%;
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+#button:hover {
+    background-color: rgb(255, 255, 255); 
+    transform: translateY(-2px); 
+}
+
+#button:active {
+    transform: translateY(0); 
+}
+
+
+#button:hover {
+    background-color: rgb(255, 255, 255); 
+}
+
+.box1 {
+    height: auto;
+    width: 900px;
+    border: 1px solid rgb(0, 0, 0);
+    margin: 10px;
+    background-color:#6adeae; 
+    color: rgb(0, 0, 0); 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#buttonAdd, #buttonRemove {
+    background-color: #3eacce; 
+    color: #ffffff; 
+    padding: 12px 20px; 
+    margin: 10px; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+    display: inline-block; 
+}
+
+#buttonAdd:hover {
+    background-color: #050668; 
+    transform: scale(1.05); 
+}
+
+#buttonRemove {
+    background-color: #dc3545; 
+}
+
+#buttonRemove:hover {
+    background-color: #c82333; 
+    transform: scale(1.05); 
+}
+
+.form-buttons {
+    display: flex;   
+    margin-top: 20px; 
+}
+
+
+.button-container {
+    display: flex; 
+    margin-top: 20px; 
+}
+
+#buttonUpdate {
+    background-color:#224104; 
+    color: rgb(204, 234, 102); 
+    padding: 12px 20px; 
+    margin: 5px;
+    border: none; 
+    border-radius: 8px;
+    cursor: pointer; 
+    transition: background-color 0.3s ease, transform 0.2s ease; 
+}
+
+#buttonUpdate:hover {
+    background-color: #ffffff; 
+    transform: scale(1.05); 
+}
+
+
+.box2 {
+    height: auto;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:#6adeae; 
+    color: rgb(0, 0, 0); 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box22a {
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:#6adeae; 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.box3 {
+    height: auto;
+    width: auto;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:#a5f6d4; 
+    color: rgb(0, 0, 0); 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.box3 h2 {
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+.token-list {
+    max-height: 100%; /* Ensure the list fits within the container */
+    overflow: hidden; /* Disable scrolling for the inner list */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.token-list  li {
+    background-color: #ffffffcb; /* Light background for each token */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for each token */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.226); /* Subtle shadow for tokens */
+    font-size: 1.1rem; /* Font size for token text */
+    color: #444; /* Font color for token text */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+.token-list li:hover {
+    background-color: #6c76c0; 
+}
+
+.box22b {
+    max-height: 100%; /* Ensure the list fits within the container */
+    overflow: hidden; /* Disable scrolling for the inner list */
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 50%;
+    border: 1px solid rgb(0, 0, 0);
+    background-color:#6adeae; 
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.Av_token li {
+    background-color: #ffffffcb; /* Light background for each token */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px; /* Rounded corners for each token */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.226); /* Subtle shadow for tokens */
+    font-size: 1.1rem; /* Font size for token text */
+    color: #444; /* Font color for token text */
+    line-height: 1.6; /* Line height for better readability */
+}
+.Av_token li:hover {
+    background-color: #6c76c0; 
+}
+
+
+main {
+    max-width: 1280px;
+    display: flex;
+    margin: auto;
+    gap: 6px;
+}
+
+.section2 {
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin-bottom: 6px;
+}
+
+i {
+    color: rgb(255, 255, 255); 
+    height: auto;
+    width: auto;
+    margin: 10px;
+    height: 20px;
+}
+
+i:hover {
+    color: rgb(255, 255, 255); 
+}
+
+
+
